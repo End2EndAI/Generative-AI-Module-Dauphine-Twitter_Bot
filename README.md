@@ -3,6 +3,8 @@
 ### Repository Overview
 This project, part of the "Generative AI" course for the Master IASD Executive program at Dauphine-PSL University, demonstrates the use of generative AI in a tool that helps agents in customer service to answer customer's tweets faster.
 
+This project can be reuse for any other use cases, that requires to use company data to generate a text from a user query (chatbot, email, calls, ...).
+
 ### Key Components
 - `app.py`: The Flask app, containing the backend.
 - `notebooks/`:
