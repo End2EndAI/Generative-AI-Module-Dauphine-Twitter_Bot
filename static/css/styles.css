@@ -1,0 +1,86 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+.app-container {
+    width: 80%;
+    max-width: 1200px;
+    min-height: 80vh;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-container {
+    background-color: #007bff; /* Updated to a smooth, consistent blue */
+    color: #ffffff; /* White for clear contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.title, .subtitle {
+    margin: 0;
+    padding: 0;
+}
+.title {
+    font-size: 32px;
+    font-weight: 500; /* Slightly less bold for a smoother appearance */
+}
+.subtitle {
+    font-size: 18px;
+    color: #f8f9fa; /* A softer shade of white for the subtitle */
+}
+#response-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 600px;
+    margin-top: 30px;
+}
+.box {
+    background-color: #ffffff;
+    border: 2px solid #dee2e6; /* Lighter border for a softer look */
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    min-width: 280px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input, button, textarea {
+    border: 2px solid #dee2e6;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f8f9fa; /* Soft background for input and textarea */
+    color: #212529; /* Dark color for text for readability */
+}
+button {
+    background-color: #007bff; /* Unified button color */
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+button:hover {
+    background-color: #0056b3; /* Slightly darker on hover for interaction feedback */
+}
+@media (max-width: 768px) {
+    #response-container {
+        flex-direction: column;
+    }
+}

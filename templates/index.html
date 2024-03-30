@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Tweet Response Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="title-container">
+            <p class="title">Twitter Helper Tool for Amazon</p>
+            <p class="subtitle">Powered by OpenAI and RAG</p>
+        </div>
+
+        <input type="text" id="customer-tweet" aria-label="Enter customer's tweet" placeholder="Enter customer's tweet">
+        <button onclick="generateResponse()">Generate</button>
+        <div id="response-container">
+            <div class="box">
+                <textarea id="generated-response" aria-label="Generated answer" placeholder="Generated answer"></textarea>
+            </div>
+            <div class="box">
+                <textarea id="similar-tweet" aria-label="Most similar tweet" placeholder="Most similar tweet"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
