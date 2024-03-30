@@ -1,4 +1,5 @@
-# Twitter_Bot_RAG
+# Generative-AI-Module-Dauphine-Twitter_Bot
+
 ### Repository Overview
 This project, part of the "Generative AI" course for the Master IASD Executive program at Dauphine-PSL University, demonstrates the use of generative AI in a tool that helps agents in customer service to answer customer's tweets faster.
 
