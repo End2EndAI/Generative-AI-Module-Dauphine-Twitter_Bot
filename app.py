@@ -121,7 +121,7 @@ def generate_answer(input_text):
     prompt = create_prompt(input_text, similar_customer_tweet, similar_company_tweet)
     messages = [{"role": "user", "content": prompt}]
     response = client_openai.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o-mini",
         messages=messages,
         temperature=0.7  # Adjust as needed
     )
